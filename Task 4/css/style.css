@@ -62,7 +62,7 @@ body {
   display: grid;
 
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 47px 550px 40px;
+  grid-template-rows: 47px auto 40px;
 
   background-color: #eeeeee;
   grid-template-areas:
