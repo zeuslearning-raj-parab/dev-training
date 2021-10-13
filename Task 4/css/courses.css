@@ -3,7 +3,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-@media (min-width: 400px) and (max-width: 768px) {
+@media (max-width: 768px) {
   #con {
     margin-top: 15px;
     display: grid;
@@ -54,7 +54,7 @@
   }
   
 }
-@media (min-width: 1025px) and (max-width: 2560px) {
+@media (min-width: 1025px){
   #con {
     margin-top: 15px;
     display: grid;
@@ -65,7 +65,14 @@
   .nav-item-ham {
     display: none;
   }
-  
+  .footer > .about {
+    padding-left: 916px;
+    color: #1f7a54;
+  }
+
+  .footer > .creds {
+    padding-left: 679px;
+  }
 }
 
 
@@ -268,9 +275,7 @@ strong {
   box-sizing: border-box;
 }
 
-.gayab {
-  display: none;
-}
+
 .slowly {
   transition: all 10s ease;
 }
@@ -320,21 +325,17 @@ strong {
 }
 
 .mikehover {
-  width: 315px;
-  height: 582px;
   background-color: #ffffff;
   position: absolute;
-  right: 136px;
+  right: 95px;
   z-index: 1;
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
 }
 .bellhover {
-  width: 315px;
-  height: 582px;
   background-color: #ffffff;
   position: absolute;
-  right: 188px;
+  right: 148px;
   z-index: 1;
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
@@ -460,4 +461,9 @@ strong {
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
+}
+
+
+.invisible{
+  display: none;
 }
